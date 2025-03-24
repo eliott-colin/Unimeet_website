@@ -162,12 +162,13 @@ footer{
         flex-direction: column;
     }
     .hero {
-        background-image: url("https://github.com/eliott-colin/Unimeet_website/blob/main/assets/167shots_so.webp?raw=true");
+        background-image: url("https://github.com/eliott-colin/Unimeet_website/blob/9a1a2e2a268e39d7dc56ceaef409a71600bf36b3/assets/710shots_so.png?raw=true");
         background-size: cover; 
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
         padding: 60px 20px;
+        padding-top: 400px;
         background-color: #f4f4f4;
     }
     .footer-download{
