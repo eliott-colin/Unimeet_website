@@ -85,8 +85,87 @@ footer{
     justify-content: center;
     width: 100%;
 }
+.download-buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;gap: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.download-buttons a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-download a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 .footer-download{
     display: flex;
     justify-content: left;
     padding: 20px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
 }
+.footer-download a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.footer-links{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    a{
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        align-items: center;
+    }
+}
+.div-links{
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+}
+.div-links span{
+    margin-right: 20px;
+}
+.div-hover{
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.div-hover:hover {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .div-links {
+        display: flex;
+        justify-content: center;
+        width: 110%;
+    }
+    .footer-links {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        padding: 20px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .hero {
+        background-image: url("https://github.com/eliott-colin/Unimeet_website/blob/main/assets/167shots_so.webp?raw=true");
+        background-size: 100%; 
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        padding: 60px 20px;
+        background-color: #f4f4f4;
+    }
+  }
