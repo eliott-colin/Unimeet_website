@@ -8,6 +8,8 @@ body {
 
 header {
     padding: 10px;
+    display: flex;
+    justify-content: center;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -161,11 +163,14 @@ footer{
     }
     .hero {
         background-image: url("https://github.com/eliott-colin/Unimeet_website/blob/main/assets/167shots_so.webp?raw=true");
-        background-size: 100%; 
+        background-size: cover; 
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
         padding: 60px 20px;
         background-color: #f4f4f4;
+    }
+    .footer-download{
+        display: none;
     }
   }
